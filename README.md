@@ -4,7 +4,7 @@
 
 一個幹話產生器，用來學習 node.js、express、express-handlebars 和 body-parser。
 
-<div align=center><img width="700" src="https://i.imgur.com/phrc7Be.png"></div>
+<div align=center><img width="800" src="https://i.imgur.com/phrc7Be.png"></div>
 
 ## Features - 特色功能
 
