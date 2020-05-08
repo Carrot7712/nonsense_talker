@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap');
+*{
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.card img{
+  height: 180px;
+  margin-top: 14px;
+} 
+
+#generate-btn{
+  margin-left: 35px;
+}
+.alert{
+  margin-left: -20px;
+  width: 98%;
+  min-height: 120px;
+}
