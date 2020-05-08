@@ -2,7 +2,7 @@
 
 江湖在走，幹話不能沒有 😏
 
-一個幹話產生器，用來學習 node.js、express、express-handlebars 和 body-parser。
+一個幹話產生器，用來學習 node.js、express、express-handlebars 和 body-parser的基礎知識。
 
 <div align=center><img width="800" src="https://i.imgur.com/phrc7Be.png"></div>
 
