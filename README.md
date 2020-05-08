@@ -1,4 +1,4 @@
-# 幹話產生器 The Nonsense Talker
+# 幹話產生器
 
 江湖在走，幹話不能沒有 😏
 
