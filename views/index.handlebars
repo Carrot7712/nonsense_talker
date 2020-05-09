@@ -10,7 +10,7 @@
         <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5668/angry-developer.jpg"
           class="card-img-top rounded" alt="工程師" />
         <div class="card-body d-flex flex-column align-items-center">
-          <input type="radio" name="profession" id="engineer" value="engineer"/>
+          <input type="radio" name="profession" id="engineer" value="engineer" {{#if engineer }} checked {{/if}}/>
           <label for="engineer" class="text-white mt-3 h4">工程師</label>
         </div>
       </div>
@@ -18,7 +18,7 @@
         <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5667/angry-designer.jpg"
           class="card-img-top rounded" alt="設計師" />
         <div class="card-body d-flex flex-column align-items-center">
-          <input type="radio" name="profession" id="designer" value="designer"/>
+          <input type="radio" name="profession" id="designer" value="designer" {{#if designer}} checked {{/if}}/>
           <label for="designer" class="text-white mt-3 h4">設計師</label>
         </div>
       </div>
@@ -26,7 +26,7 @@
         <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5669/angry-founder.jpg"
           class="card-img-top rounded" alt="創業家" />
         <div class="card-body d-flex flex-column align-items-center">
-          <input type="radio" name="profession" id="entrepreneur" value="entrepreneur" />
+          <input type="radio" name="profession" id="entrepreneur" value="entrepreneur" {{#if entrepreneur}} checked {{/if}} />
           <label for="entrepreneur" class="text-white mt-3 h4">創業家</label>
         </div>
       </div>
