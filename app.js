@@ -24,11 +24,10 @@ app.get('/', (req, res) => {
 })
 app.post('/', (req, res) => {
   const sentence = generateNonsense(req.body)
-  //想保存checked的狀態
+  //想保存checked的狀態 (助教..我還看不懂helper怎麼用><似乎用了一個純手工硬幹的方式..能否指點一下優化的方向？感謝><)
   const options = req.body
-  const engineer = function(){
-    if(options.profession ==='engineer')
-    return options.profession
+  const engineer = function () {
+    if (options.profession === 'engineer') return options.profession
   }
   const designer = function () {
     if (options.profession === 'designer') return options.profession
