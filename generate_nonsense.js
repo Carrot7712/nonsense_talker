@@ -1,6 +1,6 @@
 //產生隨機的index
-function randomIndex(array){
-  const randomIndex=Math.floor(Math.random()*array.length)
+function randomIndex(array) {
+  const randomIndex = Math.floor(Math.random() * array.length)
   return array[randomIndex]
 }
 function generateNonsense(options) {
@@ -19,7 +19,7 @@ function generateNonsense(options) {
   const phrase = ['很簡單', '很容易', '很快', '很正常']
 
   //如果沒選就送出的提示語
-  if (!options.profession){
+  if (!options.profession) {
     return `<span class="text-danger h1"><strong>選個對象再送出很容易吧 ^_^<strong></span>`
   }
   //我本來的想法：
@@ -39,7 +39,9 @@ function generateNonsense(options) {
   // }
 
   //觀摩同學以後簡化：
-  let sentence = `<h3 class="text-info">身為一個${target[options.profession]}，${randomIndex(task.engineer)}，${randomIndex(phrase)}吧！</h3>`
+  let sentence = `<h3 class="text-info">身為一個${
+    target[options.profession]
+  }，${randomIndex(task[options.profession])}，${randomIndex(phrase)}吧！</h3>`
   return sentence
 }
 //把寫好的方法輸出給其他程式使用
