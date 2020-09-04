@@ -37,3 +37,5 @@ app.post('/', (req, res) => {
   }
   res.render('index', { sentence, options, engineer, designer, entrepreneur })
 })
+
+console.log('done')
